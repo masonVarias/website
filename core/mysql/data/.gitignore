@@ -1,0 +1,6 @@
+/mysql
+/performance_schema
+/phpmyadmin
+ib*
+*.err
+*.pid

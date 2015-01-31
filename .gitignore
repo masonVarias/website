@@ -1,0 +1,9 @@
+ZeroXI_controller_read_me.txt
+/docs
+/home
+/tmp
+/utils
+**/bin
+*.exe
+read*
+READ*
