@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<style>
+		#mainLogin{
+			background-color: lightblue;
+			width: 200px;
+			padding: 25px;
+			border: 25px solid gray;
+			margin: 25px;
+		}
+		
+		.loginLabel{
+			font-weight:bold;
+		}
+		
+		}
+		
+		space{
+		background-color: darkblue;
+		width: 50px;
+		padding: 25px;
+		border: 25px dash black;
+		margin: 25px;
+		
+		}
+	
+	
+		</style>
+	</head>
+	
+	
+	
+	
+	<body background-color: "blue">
+		
+		<div id="mainLogin">
+			<form action="signIn.php" method="POST">
+		
+			<fieldset>
+			<legend> Register Account</legend>
+
+				<div id ="userNameInput">
+					<label for="user" class ="loginLabel">
+						User name:
+					</label>
+					<input type="text" name="user" value="username" type="required">
+				</div>
+				
+				<div id = "passwordInput">
+					<label for = "password" class ="loginLabel" type="required">
+						Password:
+					</label>
+					<input type="password" name="pass">
+				</div>
+				
+				<div class = "submitButton">
+					<input type="image" src="img/submitButton.png" value="" >
+				</div>
+				<div id = "recovory">
+					<a href>forgot your password or user name?</a>
+				</div>
+				
+			
+			</fieldset>
+			</form>
+		</div>
+	
+	</body>
+
+</html>
